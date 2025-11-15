@@ -9,52 +9,58 @@
     <meta name="robots" content="index, follow">
     <meta name="author" content="NeksusTeam">
 
+    <!-- Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="192x192" href="./android-chrome-192x192.png">
-<link rel="icon" type="image/png" sizes="512x512" href="./android-chrome-512x512.png">
-<link rel="manifest" href="./site.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="./android-chrome-512x512.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <meta name="theme-color" content="#ffffff">
 
-<meta name="theme-color" content="#ffffff">
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="NeksusTeam - Development, Marketing & Design Agency">
+    <meta property="og:description" content="NeksusTeam is a digital agency in Lebanon specializing in development, digital marketing, and creative design.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://neksusteam.com">
+    <meta property="og:image" content="https://neksusteam.com/social-preview.png">
+    <meta property="og:site_name" content="NeksusTeam">
+    <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NeksusTeam - Development, Marketing & Design Agency">
+    <meta name="twitter:description" content="NeksusTeam is a digital agency in Lebanon specializing in development, digital marketing, and creative design.">
+    <meta name="twitter:image" content="https://neksusteam.com/social-preview.png">
 
+    <!-- PWA -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
-<!-- Open Graph / Social Media -->
-<meta property="og:title" content="NeksusTeam - Development, Marketing & Design Agency">
-<meta property="og:description" content="NeksusTeam is a digital agency in Lebanon specializing in development, digital marketing, and creative design.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://neksusteam.com"> <!-- Add this! -->
-<meta property="og:image" content="https://neksusteam.com/social-preview.png"> <!-- Add this! -->
-<meta property="og:site_name" content="NeksusTeam"> <!-- Add this! -->
-
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="NeksusTeam - Development, Marketing & Design Agency">
-<meta name="twitter:description" content="NeksusTeam is a digital agency in Lebanon specializing in development, digital marketing, and creative design.">
-<meta name="twitter:image" content="https://neksusteam.com/social-preview.png"> <!-- Add this! -->
-    
-
-
-<!-- Open Graph (recommended) -->
-<meta property="og:locale" content="en_US">
-
-<!-- PWA (optional - add if you want app-like experience) -->
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-    
     <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <!-- Fonts - Optimized Weights -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
-    
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
+    <!-- Optimized Font Awesome -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></noscript>
+
+    <!-- Optimized Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+    <!-- Deferred CSS -->
+    <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="styles.css"></noscript>
+
+    <!-- Inline Critical CSS (Add your above-the-fold styles here) -->
+    <style>
+        /* Critical above-the-fold CSS */
+        .nav-header { opacity: 1; }
+        .loading-screen { display: block; }
+        /* Add your critical styles that show immediately */
+    </style>
 </head>
 <body>
 
@@ -1005,5 +1011,6 @@ We are here to help brands transform ideas into impactful digital experiences.</
 </body>
 
 </html>
+
 
 
